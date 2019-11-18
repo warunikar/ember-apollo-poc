@@ -2,6 +2,9 @@
 
 module.exports = function(environment) {
   let ENV = {
+    apollo: {
+      apiURL: 'https://api.graph.cool/simple/v1/ck34rnh0a1v2101114qzle9px'
+    },
     modulePrefix: 'hackernews-ember-apollo',
     environment,
     rootURL: '/',
